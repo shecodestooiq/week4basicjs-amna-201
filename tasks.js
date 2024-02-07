@@ -20,7 +20,7 @@ function printNumbersWithWhile() {
 }
 
 // Task 3
-function printEvenNumbersWithFor() {
+function printEvenNumbersWithFor(i) {
   for (var i = 2; i < 10; i+2) {
     console.log(i);
   }
@@ -28,8 +28,7 @@ function printEvenNumbersWithFor() {
 }
 
 // Task 4
-function getDayOfWeek() {
-  var a;
+function getDayOfWeek(a) {
   switch (a) {
     case 1:
       console.log('sunday');
@@ -60,13 +59,21 @@ function getDayOfWeek() {
 }
 
 // Task 5
-function sum() {
+function sum(num1,num2) {
+  var num1;
+  var num2;
+  var sum=num1+num2;
+  console.log(sum);
 
 }
 
 // Task 6
 //Uncomment and solve
 // const fruits = ;
+function fruits(){
+  var array=['apple','banana','cherry','orange','kiwi','melon','mango','pineapple','grape','watermelon', ]
+  console.log(array);
+}
 
 module.exports = {
   checkVotingEligibility,
