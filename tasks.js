@@ -11,11 +11,19 @@ function checkVotingEligibility(age) {
 
 // Task 2
 function printNumbersWithWhile() {
+  var i=1;
+  while (i<5) {
+    console.log(i);
+    i++;
+  }
 
 }
 
 // Task 3
 function printEvenNumbersWithFor() {
+  for (var i = 2; i < 10; i+2) {
+    console.log(i);
+  }
 
 }
 
