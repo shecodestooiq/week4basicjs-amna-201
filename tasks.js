@@ -12,7 +12,7 @@ function checkVotingEligibility(age) {
 // Task 2
 function printNumbersWithWhile() {
   var i=1;
-  while (i<5) {
+  while (i<6) {
     console.log(i);
     i++;
   }
@@ -21,7 +21,7 @@ function printNumbersWithWhile() {
 
 // Task 3
 function printEvenNumbersWithFor(i) {
-  for (var i = 2; i < 10; i+2) {
+  for (var i = 2; i < 11; i+2) {
     console.log(i);
   }
 
