@@ -8,7 +8,7 @@ function checkVotingEligibility(age) {
   }
 
 }
-
+checkVotingEligibility(18);
 // Task 2
 function printNumbersWithWhile() {
   var i=1;
@@ -18,14 +18,16 @@ function printNumbersWithWhile() {
   }
 
 }
+printNumbersWithWhile();
 
 // Task 3
 function printEvenNumbersWithFor(i) {
-  for (var i = 2; i < 11; i+2) {
+  for (var i = 2; i < 11; i+=2) {
     console.log(i);
   }
 
 }
+printNumbersWithWhile();
 
 // Task 4
 function getDayOfWeek(a) {
@@ -57,6 +59,7 @@ function getDayOfWeek(a) {
   }
 
 }
+getDayOfWeek(2);
 
 // Task 5
 function sum(num1,num2) {
@@ -66,6 +69,7 @@ function sum(num1,num2) {
   console.log(sum);
 
 }
+sum('amna','mohamed');
 
 // Task 6
 //Uncomment and solve
@@ -74,8 +78,9 @@ function fruits(){
   var array=['apple','banana','cherry','orange','kiwi','melon','mango','pineapple','grape','watermelon', ]
   console.log(array);
 }
+fruits();
 
-module.exports = {
+export default {
   checkVotingEligibility,
   printNumbersWithWhile,
   printEvenNumbersWithFor,
@@ -83,3 +88,4 @@ module.exports = {
   sum,
   fruits,
 };
+
